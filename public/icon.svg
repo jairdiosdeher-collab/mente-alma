@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="tealGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  
+  <!-- Outer subtle circular ring -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#2dd4bf" stroke-width="6" stroke-opacity="0.25" stroke-dasharray="8 8"/>
+  
+  <!-- Stylized Clinical Brain & Compassionate Leaf / Cross Nexus -->
+  <g transform="translate(256,256)">
+    <!-- Central warm glow -->
+    <circle cx="0" cy="0" r="48" fill="#0d9488" fill-opacity="0.3"/>
+    
+    <!-- Left Hemisphere (Cognitive / Rational Waves) -->
+    <path d="M-20,-110 C-90,-110 -130,-50 -120,20 C-110,80 -60,110 -15,110 C-18,60 -18,-50 -20,-110 Z" 
+          fill="none" stroke="url(#tealGrad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-50,-50 C-85,-30 -85,10 -45,35" 
+          fill="none" stroke="url(#tealGrad)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M-30,-80 C-55,-65 -55,-40 -30,-25" 
+          fill="none" stroke="url(#tealGrad)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Right Hemisphere (Empathy / Hope / Pastoral Leaf) -->
+    <path d="M20,-110 C90,-110 130,-50 120,20 C110,80 60,110 15,110 C18,60 18,-50 20,-110 Z" 
+          fill="none" stroke="url(#goldGrad)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M50,-50 C85,-30 85,10 45,35" 
+          fill="none" stroke="url(#goldGrad)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M30,-80 C55,-65 55,-40 30,-25" 
+          fill="none" stroke="url(#goldGrad)" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- Center Synaptic Heart / Anchor Spark -->
+    <circle cx="0" cy="-10" r="14" fill="#ffffff"/>
+    <path d="M0,-40 L0,40 M-30,-10 L30,-10" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+</svg>

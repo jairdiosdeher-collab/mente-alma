@@ -1,0 +1,6 @@
+{
+  "name": "PastoralMente Clinical AI",
+  "description": "Plataforma clínica integral para psicoterapeutas y profesionales de la salud mental que unifica seguimiento terapéutico, psicofarmacología, análisis síntoma-medicamento, escalas clínicas (PHQ-9, GAD-7), generación de informes, biblioteca de técnicas y modo pastoral optativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
